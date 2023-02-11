@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+    <h1 id="title">Abdourahamane Survey Form</h1>
+    <p id="description">Thank you for taking the time to help me improve the knowledge</p>
+    </div>
+    <form id="survey-form" content="">
+        <div class="label-form">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type="text" placeholder ="enter your name" required>
+    
+            <label for="email" id="email-label"> Email<label>
+
+            <input id="email" type="email" placeholder="enter your email" required >
+
+            <label for="number" id="number-label">Number</label>
+            <input id="number" type="number" min="8" max="15"                   placeholder="enter your number">
+            <label for="age" id="age-label">Age(optional)   </label>
+            <input id="age" type="number" placeholder="Age">
+            <legend>What is your favorite feature of freeCodeCamp?</legend>
+            <label for="dropdown" >
+            <select id="dropdown">
+                <option>Selec current role</option >
+                <option>Challenges</option>
+                <option>Project</option>
+                <option>Community</option>
+                <optio >Open Source</option>
+            </select>
+            </label>
+        </div>
+        <div class="adra">
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <label for="definitely" ><input id="definitely" name="radio-choice" type="radio" value="definityly">Definitely</label>
+            <label for="maybe" ><input id="maybe" type="radio" name="radio-choice" value="maybe">Maybe</label>
+            <label for="not-sure" ><input id="not-sure" type="radio" name="radio-choice" value="not-sure">Not Sure</label>
+        </div>
+        <div class="adra">
+            <legend>What would you like to see improved? (Check all that apply)</legend>
+            <label for="front-end-projects"><input id="front-end-projects" type="checkbox" name="check-pro" value="front-end-projects">Front-End Projects</label>
+
+            <label for="back-end-projects"><input id="back-end-projects" type="checkbox" name="check-pro" value="back-end-projects">Back-End Projects</label>
+
+            <label for="data-visualization"><input id="data-visualization" type="checkbox" name="check-pro" value="data-visualization">Data Visualisation</label>
+
+            <label for="challenges"><input id="challenges" type="checkbox" name="check-pro" value="challenges">Challenges</label>
+
+            <label for="open-source-community"><input id="open-source-community" type="checkbox" name="check-pro" value="open-source-community">Open Source Community</label>
+
+            <label for="gitter-help-rooms"><input id="gitter-help-rooms" type="checkbox" name="check-pro" value="gitter-help-rooms">Gitter Help Rooms</label>
+
+            <label for="videos"><input id="videos" type="checkbox" name="check-pro" value="videos">Videos</label>
+
+            <label for="city-meetups"><input id="city-meetups" type="checkbox" name="check-pro" value="city-meetups">City Meetups</label>
+
+            <label for="wiki"><input id="wiki" type="checkbox" name="check-pro" value="wiki">Wiki</label>
+
+            <label for="forum"><input id="forum" type="checkbox" name="check-pro" value="forum">Forum</label>
+
+            <label for="additional-courses"><input id="additional-courses" type="checkbox" name="check-pro" value="additional-courses">Additional Couses</label>
+        </div>
+        <div class="adra">
+            <legend>Any comments or suggestions?</legend>
+            <textarea placeholder="enter your comment here" ></textarea>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    </body>
+</html>
